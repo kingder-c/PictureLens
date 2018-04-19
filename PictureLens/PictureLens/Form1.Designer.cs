@@ -49,6 +49,7 @@
             this.SelectPath.TabIndex = 1;
             this.SelectPath.Text = "根据文件夹选择";
             this.SelectPath.UseVisualStyleBackColor = true;
+            this.SelectPath.Click += new System.EventHandler(this.SelectPath_Click);
             // 
             // button2
             // 
@@ -58,6 +59,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "根据文件选择";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
